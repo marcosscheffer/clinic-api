@@ -1,4 +1,4 @@
-package com.marcos.api.config;
+package com.marcos.api.infra.config;
 
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

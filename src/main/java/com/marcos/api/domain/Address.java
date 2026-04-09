@@ -1,9 +1,13 @@
-package com.marcos.api.model;
+package com.marcos.api.domain;
 
+import com.marcos.api.dto.address.AddressDTO;
 import jakarta.persistence.Embeddable;
-import com.marcos.api.dto.AddressDTO;
+import lombok.Getter;
+import lombok.Setter;
 
 @Embeddable
+@Getter
+@Setter
 public class Address {
     private String street;
     private String neighborhood;

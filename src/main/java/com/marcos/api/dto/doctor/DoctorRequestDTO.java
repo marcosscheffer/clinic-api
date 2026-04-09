@@ -1,6 +1,7 @@
-package com.marcos.api.dto;
+package com.marcos.api.dto.doctor;
 
-import com.marcos.api.model.Especialization;
+import com.marcos.api.domain.Especialization;
+import com.marcos.api.dto.address.AddressDTO;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

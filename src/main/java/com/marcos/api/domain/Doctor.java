@@ -1,4 +1,4 @@
-package com.marcos.api.model;
+package com.marcos.api.domain;
 
 import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
@@ -13,8 +13,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import jakarta.persistence.GenerationType;
-import com.marcos.api.dto.DoctorRequestDTO;
-import com.marcos.api.dto.DoctorUpdateDTO;
+import com.marcos.api.dto.doctor.DoctorRequestDTO;
+import com.marcos.api.dto.doctor.DoctorUpdateDTO;
 
 @Entity
 @Table(name = "doctors")

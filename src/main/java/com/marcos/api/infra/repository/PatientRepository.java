@@ -1,7 +1,7 @@
-package com.marcos.api.repository;
+package com.marcos.api.infra.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.marcos.api.model.Patient;
+import com.marcos.api.domain.Patient;
 
 public interface PatientRepository extends JpaRepository<Patient, Long> {
 
