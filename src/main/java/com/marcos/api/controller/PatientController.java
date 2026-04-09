@@ -2,7 +2,6 @@ package com.marcos.api.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.util.UriBuilder;
 import org.springframework.web.util.UriComponentsBuilder;
 import com.marcos.api.service.PatientService;
 import jakarta.transaction.Transactional;
@@ -23,7 +22,6 @@ import com.marcos.api.dto.patient.PatientsResponseDTO;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import com.marcos.api.dto.patient.PatientResponseDTO;
-
 
 
 @RestController

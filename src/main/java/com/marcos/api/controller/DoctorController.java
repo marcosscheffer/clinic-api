@@ -9,7 +9,6 @@ import com.marcos.api.dto.doctor.DoctorResponseDTO;
 import com.marcos.api.dto.doctor.DoctorUpdateDTO;
 import com.marcos.api.dto.doctor.DoctorsResponseDTO;
 import com.marcos.api.service.DoctorService;
-import jakarta.persistence.EntityNotFoundException;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import java.net.URI;
@@ -23,7 +22,6 @@ import org.springframework.data.web.PageableDefault;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.http.ResponseEntity;
-
 
 
 @RestController
